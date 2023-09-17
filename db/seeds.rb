@@ -19,3 +19,10 @@ require 'faker'
 end
 
 puts "Seed data created successfully."
+
+3.times do
+  User.create(
+    name: Faker::Name.name,
+    password: Faker::Internet.password(min_length: 8, max_length: 20)
+  )
+end

@@ -6,7 +6,7 @@ class ItemsController < ApplicationController
     end
     def show
         item = find_item
-        render json: item, status: :ok
+        render json: item,status: :ok
     end
     def create
         item  = Item.create!(item_params)
