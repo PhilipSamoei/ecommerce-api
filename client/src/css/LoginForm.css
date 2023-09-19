@@ -1,0 +1,43 @@
+/* .login{
+    background-color:white;
+    display:flex;
+    justify-content: center;
+   
+
+}
+.submit{
+    background-color: blue;
+    color: white;
+    border-radius: 0;
+
+} */
+/* Define your CSS styles here */
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.input-field {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.error-message {
+    color: red;
+}
+
+.submit-button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: fit-content;
+}

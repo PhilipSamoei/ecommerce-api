@@ -1,12 +1,11 @@
 import React from 'react'
-import Front from './components/Front'
-import Login from './components/Login'
+import LoginForm from './components/LoginForm'
 
 function App() {
   return (
     <div>
+      <LoginForm />
   
-      <Front />
     </div>
   )
 }
